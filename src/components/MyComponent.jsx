@@ -33,8 +33,7 @@ const MyComponent = () => {
       console.log('Dữ liệu gửi đi:', formData);
 
       // Gửi dữ liệu đến endpoint
-      const response = await axios.post(
-        'https://ap-southeast-1.aws.data.mongodb-api.com/app/application-0-rxqgf/endpoint/postmanual',
+      const response = await axios.post('https://ap-southeast-1.aws.data.mongodb-api.com/app/application-0-rxqgf/endpoint/postmanual',
         formData
       );
 
