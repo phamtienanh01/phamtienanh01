@@ -29,7 +29,7 @@ const MongoDataComponent = () => {
   }, []);
 
   return (
-    <div className="weight-data-container">
+    <div className="weight-data">
       <h1 className="weight-data-title">
         <span>Angle: </span>
         {weightData.length > 0 ? (
